@@ -25,6 +25,8 @@ function driversByName(array){
   })
 }
 
-function totalRevenue(){
-  
+function totalRevenue(array){
+  return array.reduce(()=>{
+    
+  })
 }
