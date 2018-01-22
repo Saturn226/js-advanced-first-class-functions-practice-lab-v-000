@@ -19,8 +19,10 @@ function driversByRevenue(array){
  
 }
 
-function driversByName(){
-  
+function driversByName(array){
+  return array.slice().sort((a,b)=>{
+    
+  })
 }
 
 function totalRevenue(){
