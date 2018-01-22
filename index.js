@@ -13,10 +13,10 @@ function logDriversByHometown(array, hometown){
 }
 
 function driversByRevenue(array){
-  let newArray = array.sort((a,b) => {
-    return a.revenue - b.revenue
+  return array.sort((a) => {
+    return a.revenue
   })
-  return newArray
+ 
 }
 
 function driversByName(){
