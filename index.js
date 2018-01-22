@@ -31,4 +31,10 @@ function totalRevenue(array){
   }, 0)
 }
 
-function 
+function averageRevenue(array){
+  return totalRevenue(array) / array.length
+}
+
+
+
+
