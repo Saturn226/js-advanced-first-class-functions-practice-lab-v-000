@@ -30,3 +30,5 @@ function totalRevenue(array){
     return agg + el.revenue
   }, 0)
 }
+
+function 
